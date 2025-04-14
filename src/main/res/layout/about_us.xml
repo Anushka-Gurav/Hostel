@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- App Name -->
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✨ Jivan Jyot: Your Health Companion ✨"
+                android:textSize="28sp"
+                android:textStyle="bold"
+
+                android:paddingBottom="12dp" />
+
+            <!-- App Overview -->
+            <TextView
+                android:id="@+id/app_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview: Jivan Jyot is a comprehensive healthcare application designed to make healthcare easily accessible and efficient. From AI-powered medicine identification to teleconsultations, e-prescriptions, and mental health support, Jivan Jyot offers a holistic solution to manage your health needs."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingBottom="16dp" />
+
+            <!-- More App Info -->
+            <TextView
+                android:id="@+id/app_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Features:\n• AI-powered Medicine Identification.\n• Emergency SOS Assistance.\n• Health FAQs and First-Aid Guidance.\n• Integrated Teleconsultations and E-Prescriptions.\n• Mental Health Support  Preventive Plans.\n• Medicine Reminders and Prescription Downloads."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingBottom="16dp" />
+
+            <!-- Video Tutorial Button -->
+            <Button
+                android:id="@+id/tutorial_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📺 Watch Tutorial Video"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Contact Info -->
+            <TextView
+                android:id="@+id/contact_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📞 Contact Us\nEmail: support@jivanjyot.com\nPhone: +91-9876543210\nWebsite: www.jivanjyot.com"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:padding="12dp"
+
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
